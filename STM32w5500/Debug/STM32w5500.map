@@ -317,10 +317,6 @@ Discarded input sections
  .group         0x0000000000000000        0xc ./Core/Src/main.o
  .group         0x0000000000000000        0xc ./Core/Src/main.o
  .group         0x0000000000000000        0xc ./Core/Src/main.o
- .group         0x0000000000000000        0xc ./Core/Src/main.o
- .group         0x0000000000000000        0xc ./Core/Src/main.o
- .group         0x0000000000000000        0xc ./Core/Src/main.o
- .group         0x0000000000000000        0xc ./Core/Src/main.o
  .text          0x0000000000000000        0x0 ./Core/Src/main.o
  .data          0x0000000000000000        0x0 ./Core/Src/main.o
  .bss           0x0000000000000000        0x0 ./Core/Src/main.o
@@ -8482,75 +8478,75 @@ LOAD c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
 LOAD c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
 LOAD c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.100.202210260954/tools/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a
 
-.debug_info     0x0000000000000000    0x16dfc
+.debug_info     0x0000000000000000    0x16d32
  .debug_info    0x0000000000000000      0x4ca ./Core/Src/gpio.o
- .debug_info    0x00000000000004ca      0xed7 ./Core/Src/main.o
- .debug_info    0x00000000000013a1      0x84e ./Core/Src/serialCommand.o
- .debug_info    0x0000000000001bef      0xb84 ./Core/Src/spi.o
- .debug_info    0x0000000000002773      0x32b ./Core/Src/stm32g4xx_hal_msp.o
- .debug_info    0x0000000000002a9e      0x129 ./Core/Src/stm32g4xx_it.o
- .debug_info    0x0000000000002bc7      0x6e0 ./Core/Src/syscalls.o
- .debug_info    0x00000000000032a7      0x171 ./Core/Src/sysmem.o
- .debug_info    0x0000000000003418      0x59f ./Core/Src/system_stm32g4xx.o
- .debug_info    0x00000000000039b7      0xdb0 ./Core/Src/usart.o
- .debug_info    0x0000000000004767       0x22 ./Core/Startup/startup_stm32g431kbtx.o
- .debug_info    0x0000000000004789      0xae3 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.o
- .debug_info    0x000000000000526c      0xdc4 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.o
- .debug_info    0x0000000000006030      0x82f ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.o
- .debug_info    0x000000000000685f      0x983 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.o
- .debug_info    0x00000000000071e2      0xc53 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.o
- .debug_info    0x0000000000007e35      0xcfe ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.o
- .debug_info    0x0000000000008b33     0x18b8 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.o
- .debug_info    0x000000000000a3eb     0x4936 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.o
- .debug_info    0x000000000000ed21     0x1031 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.o
- .debug_info    0x000000000000fd52      0x586 ./Drivers/ioLibrary_Driver/Ethernet/W5500/w5500.o
- .debug_info    0x00000000000102d8      0x78a ./Drivers/ioLibrary_Driver/Ethernet/socket.o
- .debug_info    0x0000000000010a62      0xd36 ./Drivers/ioLibrary_Driver/Ethernet/wizchip_conf.o
- .debug_info    0x0000000000011798      0xacf ./Drivers/ioLibrary_Driver/Internet/DHCP/dhcp.o
- .debug_info    0x0000000000012267      0x7d1 ./Drivers/ioLibrary_Driver/Internet/DNS/dns.o
- .debug_info    0x0000000000012a38     0x123d ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTClient.o
- .debug_info    0x0000000000013c75      0x502 ./Drivers/ioLibrary_Driver/Internet/MQTT/mqtt_interface.o
- .debug_info    0x0000000000014177      0x74c ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectClient.o
- .debug_info    0x00000000000148c3      0x3f8 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTDeserializePublish.o
- .debug_info    0x0000000000014cbb      0x866 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTPacket.o
- .debug_info    0x0000000000015521      0x576 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSerializePublish.o
- .debug_info    0x0000000000015a97      0x4cd ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeClient.o
- .debug_info    0x0000000000015f64      0xe98 ./W5500/W5500Interface.o
+ .debug_info    0x00000000000004ca      0xe0d ./Core/Src/main.o
+ .debug_info    0x00000000000012d7      0x84e ./Core/Src/serialCommand.o
+ .debug_info    0x0000000000001b25      0xb84 ./Core/Src/spi.o
+ .debug_info    0x00000000000026a9      0x32b ./Core/Src/stm32g4xx_hal_msp.o
+ .debug_info    0x00000000000029d4      0x129 ./Core/Src/stm32g4xx_it.o
+ .debug_info    0x0000000000002afd      0x6e0 ./Core/Src/syscalls.o
+ .debug_info    0x00000000000031dd      0x171 ./Core/Src/sysmem.o
+ .debug_info    0x000000000000334e      0x59f ./Core/Src/system_stm32g4xx.o
+ .debug_info    0x00000000000038ed      0xdb0 ./Core/Src/usart.o
+ .debug_info    0x000000000000469d       0x22 ./Core/Startup/startup_stm32g431kbtx.o
+ .debug_info    0x00000000000046bf      0xae3 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.o
+ .debug_info    0x00000000000051a2      0xdc4 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.o
+ .debug_info    0x0000000000005f66      0x82f ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.o
+ .debug_info    0x0000000000006795      0x983 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.o
+ .debug_info    0x0000000000007118      0xc53 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.o
+ .debug_info    0x0000000000007d6b      0xcfe ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.o
+ .debug_info    0x0000000000008a69     0x18b8 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.o
+ .debug_info    0x000000000000a321     0x4936 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.o
+ .debug_info    0x000000000000ec57     0x1031 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.o
+ .debug_info    0x000000000000fc88      0x586 ./Drivers/ioLibrary_Driver/Ethernet/W5500/w5500.o
+ .debug_info    0x000000000001020e      0x78a ./Drivers/ioLibrary_Driver/Ethernet/socket.o
+ .debug_info    0x0000000000010998      0xd36 ./Drivers/ioLibrary_Driver/Ethernet/wizchip_conf.o
+ .debug_info    0x00000000000116ce      0xacf ./Drivers/ioLibrary_Driver/Internet/DHCP/dhcp.o
+ .debug_info    0x000000000001219d      0x7d1 ./Drivers/ioLibrary_Driver/Internet/DNS/dns.o
+ .debug_info    0x000000000001296e     0x123d ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTClient.o
+ .debug_info    0x0000000000013bab      0x502 ./Drivers/ioLibrary_Driver/Internet/MQTT/mqtt_interface.o
+ .debug_info    0x00000000000140ad      0x74c ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectClient.o
+ .debug_info    0x00000000000147f9      0x3f8 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTDeserializePublish.o
+ .debug_info    0x0000000000014bf1      0x866 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTPacket.o
+ .debug_info    0x0000000000015457      0x576 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSerializePublish.o
+ .debug_info    0x00000000000159cd      0x4cd ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeClient.o
+ .debug_info    0x0000000000015e9a      0xe98 ./W5500/W5500Interface.o
 
-.debug_abbrev   0x0000000000000000     0x405e
+.debug_abbrev   0x0000000000000000     0x4018
  .debug_abbrev  0x0000000000000000      0x146 ./Core/Src/gpio.o
- .debug_abbrev  0x0000000000000146      0x370 ./Core/Src/main.o
- .debug_abbrev  0x00000000000004b6      0x15f ./Core/Src/serialCommand.o
- .debug_abbrev  0x0000000000000615      0x1e0 ./Core/Src/spi.o
- .debug_abbrev  0x00000000000007f5       0xc2 ./Core/Src/stm32g4xx_hal_msp.o
- .debug_abbrev  0x00000000000008b7       0x74 ./Core/Src/stm32g4xx_it.o
- .debug_abbrev  0x000000000000092b      0x1b3 ./Core/Src/syscalls.o
- .debug_abbrev  0x0000000000000ade       0xbb ./Core/Src/sysmem.o
- .debug_abbrev  0x0000000000000b99      0x116 ./Core/Src/system_stm32g4xx.o
- .debug_abbrev  0x0000000000000caf      0x1fe ./Core/Src/usart.o
- .debug_abbrev  0x0000000000000ead       0x12 ./Core/Startup/startup_stm32g431kbtx.o
- .debug_abbrev  0x0000000000000ebf      0x269 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.o
- .debug_abbrev  0x0000000000001128      0x30d ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.o
- .debug_abbrev  0x0000000000001435      0x1bb ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.o
- .debug_abbrev  0x00000000000015f0      0x229 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.o
- .debug_abbrev  0x0000000000001819      0x2bd ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.o
- .debug_abbrev  0x0000000000001ad6      0x247 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.o
- .debug_abbrev  0x0000000000001d1d      0x254 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.o
- .debug_abbrev  0x0000000000001f71      0x2f0 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.o
- .debug_abbrev  0x0000000000002261      0x2bd ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.o
- .debug_abbrev  0x000000000000251e      0x211 ./Drivers/ioLibrary_Driver/Ethernet/W5500/w5500.o
- .debug_abbrev  0x000000000000272f      0x1ae ./Drivers/ioLibrary_Driver/Ethernet/socket.o
- .debug_abbrev  0x00000000000028dd      0x30a ./Drivers/ioLibrary_Driver/Ethernet/wizchip_conf.o
- .debug_abbrev  0x0000000000002be7      0x235 ./Drivers/ioLibrary_Driver/Internet/DHCP/dhcp.o
- .debug_abbrev  0x0000000000002e1c      0x235 ./Drivers/ioLibrary_Driver/Internet/DNS/dns.o
- .debug_abbrev  0x0000000000003051      0x304 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTClient.o
- .debug_abbrev  0x0000000000003355      0x184 ./Drivers/ioLibrary_Driver/Internet/MQTT/mqtt_interface.o
- .debug_abbrev  0x00000000000034d9      0x1d1 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectClient.o
- .debug_abbrev  0x00000000000036aa      0x18b ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTDeserializePublish.o
- .debug_abbrev  0x0000000000003835      0x2a5 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTPacket.o
- .debug_abbrev  0x0000000000003ada      0x1b5 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSerializePublish.o
- .debug_abbrev  0x0000000000003c8f      0x1a9 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeClient.o
- .debug_abbrev  0x0000000000003e38      0x226 ./W5500/W5500Interface.o
+ .debug_abbrev  0x0000000000000146      0x32a ./Core/Src/main.o
+ .debug_abbrev  0x0000000000000470      0x15f ./Core/Src/serialCommand.o
+ .debug_abbrev  0x00000000000005cf      0x1e0 ./Core/Src/spi.o
+ .debug_abbrev  0x00000000000007af       0xc2 ./Core/Src/stm32g4xx_hal_msp.o
+ .debug_abbrev  0x0000000000000871       0x74 ./Core/Src/stm32g4xx_it.o
+ .debug_abbrev  0x00000000000008e5      0x1b3 ./Core/Src/syscalls.o
+ .debug_abbrev  0x0000000000000a98       0xbb ./Core/Src/sysmem.o
+ .debug_abbrev  0x0000000000000b53      0x116 ./Core/Src/system_stm32g4xx.o
+ .debug_abbrev  0x0000000000000c69      0x1fe ./Core/Src/usart.o
+ .debug_abbrev  0x0000000000000e67       0x12 ./Core/Startup/startup_stm32g431kbtx.o
+ .debug_abbrev  0x0000000000000e79      0x269 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.o
+ .debug_abbrev  0x00000000000010e2      0x30d ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.o
+ .debug_abbrev  0x00000000000013ef      0x1bb ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.o
+ .debug_abbrev  0x00000000000015aa      0x229 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.o
+ .debug_abbrev  0x00000000000017d3      0x2bd ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.o
+ .debug_abbrev  0x0000000000001a90      0x247 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.o
+ .debug_abbrev  0x0000000000001cd7      0x254 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.o
+ .debug_abbrev  0x0000000000001f2b      0x2f0 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.o
+ .debug_abbrev  0x000000000000221b      0x2bd ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.o
+ .debug_abbrev  0x00000000000024d8      0x211 ./Drivers/ioLibrary_Driver/Ethernet/W5500/w5500.o
+ .debug_abbrev  0x00000000000026e9      0x1ae ./Drivers/ioLibrary_Driver/Ethernet/socket.o
+ .debug_abbrev  0x0000000000002897      0x30a ./Drivers/ioLibrary_Driver/Ethernet/wizchip_conf.o
+ .debug_abbrev  0x0000000000002ba1      0x235 ./Drivers/ioLibrary_Driver/Internet/DHCP/dhcp.o
+ .debug_abbrev  0x0000000000002dd6      0x235 ./Drivers/ioLibrary_Driver/Internet/DNS/dns.o
+ .debug_abbrev  0x000000000000300b      0x304 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTClient.o
+ .debug_abbrev  0x000000000000330f      0x184 ./Drivers/ioLibrary_Driver/Internet/MQTT/mqtt_interface.o
+ .debug_abbrev  0x0000000000003493      0x1d1 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectClient.o
+ .debug_abbrev  0x0000000000003664      0x18b ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTDeserializePublish.o
+ .debug_abbrev  0x00000000000037ef      0x2a5 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTPacket.o
+ .debug_abbrev  0x0000000000003a94      0x1b5 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSerializePublish.o
+ .debug_abbrev  0x0000000000003c49      0x1a9 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeClient.o
+ .debug_abbrev  0x0000000000003df2      0x226 ./W5500/W5500Interface.o
 
 .debug_aranges  0x0000000000000000     0x12b0
  .debug_aranges
@@ -8655,7 +8651,7 @@ LOAD c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_ranges  0x0000000000001108       0x20 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeClient.o
  .debug_ranges  0x0000000000001128       0x48 ./W5500/W5500Interface.o
 
-.debug_macro    0x0000000000000000    0x23e56
+.debug_macro    0x0000000000000000    0x23831
  .debug_macro   0x0000000000000000      0x3f8 ./Core/Src/gpio.o
  .debug_macro   0x00000000000003f8      0xa78 ./Core/Src/gpio.o
  .debug_macro   0x0000000000000e70      0x15b ./Core/Src/gpio.o
@@ -8733,176 +8729,172 @@ LOAD c:/st/stm32cubeide_1.10.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_macro   0x000000000001c32e       0x28 ./Core/Src/gpio.o
  .debug_macro   0x000000000001c356       0x34 ./Core/Src/gpio.o
  .debug_macro   0x000000000001c38a       0x28 ./Core/Src/gpio.o
- .debug_macro   0x000000000001c3b2      0x477 ./Core/Src/main.o
- .debug_macro   0x000000000001c829      0xb68 ./Core/Src/main.o
- .debug_macro   0x000000000001d391       0x1c ./Core/Src/main.o
- .debug_macro   0x000000000001d3ad     0x1011 ./Core/Src/main.o
- .debug_macro   0x000000000001e3be      0x17b ./Core/Src/main.o
- .debug_macro   0x000000000001e539       0x34 ./Core/Src/main.o
- .debug_macro   0x000000000001e56d       0x35 ./Core/Src/main.o
- .debug_macro   0x000000000001e5a2      0x364 ./Core/Src/main.o
- .debug_macro   0x000000000001e906       0x43 ./Core/Src/main.o
- .debug_macro   0x000000000001e949       0x16 ./Core/Src/main.o
- .debug_macro   0x000000000001e95f      0x137 ./Core/Src/main.o
- .debug_macro   0x000000000001ea96      0x18a ./Core/Src/main.o
- .debug_macro   0x000000000001ec20       0x10 ./Core/Src/main.o
- .debug_macro   0x000000000001ec30      0x3d1 ./Core/Src/main.o
- .debug_macro   0x000000000001f001       0x16 ./Core/Src/main.o
- .debug_macro   0x000000000001f017       0x20 ./Core/Src/main.o
- .debug_macro   0x000000000001f037       0x8e ./Core/Src/main.o
- .debug_macro   0x000000000001f0c5      0x3f8 ./Core/Src/serialCommand.o
- .debug_macro   0x000000000001f4bd      0x3f8 ./Core/Src/spi.o
- .debug_macro   0x000000000001f8b5      0x3ee ./Core/Src/stm32g4xx_hal_msp.o
- .debug_macro   0x000000000001fca3      0x3f8 ./Core/Src/stm32g4xx_it.o
- .debug_macro   0x000000000002009b      0x24c ./Core/Src/syscalls.o
- .debug_macro   0x00000000000202e7       0x4c ./Core/Src/syscalls.o
- .debug_macro   0x0000000000020333       0x94 ./Core/Src/syscalls.o
- .debug_macro   0x00000000000203c7       0x57 ./Core/Src/syscalls.o
- .debug_macro   0x000000000002041e       0x10 ./Core/Src/syscalls.o
- .debug_macro   0x000000000002042e       0x10 ./Core/Src/syscalls.o
- .debug_macro   0x000000000002043e       0x10 ./Core/Src/syscalls.o
- .debug_macro   0x000000000002044e       0x35 ./Core/Src/syscalls.o
- .debug_macro   0x0000000000020483      0x12c ./Core/Src/syscalls.o
- .debug_macro   0x00000000000205af       0x16 ./Core/Src/syscalls.o
- .debug_macro   0x00000000000205c5       0x16 ./Core/Src/syscalls.o
- .debug_macro   0x00000000000205db       0x29 ./Core/Src/syscalls.o
- .debug_macro   0x0000000000020604       0x10 ./Core/Src/syscalls.o
- .debug_macro   0x0000000000020614      0x241 ./Core/Src/syscalls.o
- .debug_macro   0x0000000000020855       0x1c ./Core/Src/syscalls.o
- .debug_macro   0x0000000000020871       0x10 ./Core/Src/syscalls.o
- .debug_macro   0x0000000000020881      0x189 ./Core/Src/syscalls.o
- .debug_macro   0x0000000000020a0a       0x16 ./Core/Src/syscalls.o
- .debug_macro   0x0000000000020a20       0xce ./Core/Src/syscalls.o
- .debug_macro   0x0000000000020aee       0xff ./Core/Src/sysmem.o
- .debug_macro   0x0000000000020bed      0x23b ./Core/Src/sysmem.o
- .debug_macro   0x0000000000020e28      0x1cf ./Core/Src/system_stm32g4xx.o
- .debug_macro   0x0000000000020ff7      0x3f8 ./Core/Src/usart.o
- .debug_macro   0x00000000000213ef      0x21d ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.o
- .debug_macro   0x000000000002160c      0x1cf ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.o
- .debug_macro   0x00000000000217db      0x1d6 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.o
- .debug_macro   0x00000000000219b1      0x1f9 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.o
- .debug_macro   0x0000000000021baa      0x211 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.o
- .debug_macro   0x0000000000021dbb      0x1f9 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.o
- .debug_macro   0x0000000000021fb4      0x1d7 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.o
- .debug_macro   0x000000000002218b      0x1fa ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.o
- .debug_macro   0x0000000000022385      0x1db ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.o
- .debug_macro   0x0000000000022560       0x9d ./Drivers/ioLibrary_Driver/Ethernet/W5500/w5500.o
- .debug_macro   0x00000000000225fd       0xb8 ./Drivers/ioLibrary_Driver/Ethernet/socket.o
- .debug_macro   0x00000000000226b5       0x66 ./Drivers/ioLibrary_Driver/Ethernet/socket.o
- .debug_macro   0x000000000002271b       0x94 ./Drivers/ioLibrary_Driver/Ethernet/wizchip_conf.o
- .debug_macro   0x00000000000227af      0x2a9 ./Drivers/ioLibrary_Driver/Internet/DHCP/dhcp.o
- .debug_macro   0x0000000000022a58      0x331 ./Drivers/ioLibrary_Driver/Internet/DNS/dns.o
- .debug_macro   0x0000000000022d89       0x10 ./Drivers/ioLibrary_Driver/Internet/DNS/dns.o
- .debug_macro   0x0000000000022d99      0x228 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTClient.o
- .debug_macro   0x0000000000022fc1       0xa4 ./Drivers/ioLibrary_Driver/Internet/MQTT/mqtt_interface.o
- .debug_macro   0x0000000000023065      0x21c ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectClient.o
- .debug_macro   0x0000000000023281      0x222 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTDeserializePublish.o
- .debug_macro   0x00000000000234a3      0x222 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTPacket.o
- .debug_macro   0x00000000000236c5      0x21c ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSerializePublish.o
- .debug_macro   0x00000000000238e1      0x21c ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeClient.o
- .debug_macro   0x0000000000023afd      0x359 ./W5500/W5500Interface.o
+ .debug_macro   0x000000000001c3b2      0x44b ./Core/Src/main.o
+ .debug_macro   0x000000000001c7fd      0xb68 ./Core/Src/main.o
+ .debug_macro   0x000000000001d365       0x1c ./Core/Src/main.o
+ .debug_macro   0x000000000001d381     0x1011 ./Core/Src/main.o
+ .debug_macro   0x000000000001e392      0x17b ./Core/Src/main.o
+ .debug_macro   0x000000000001e50d       0x34 ./Core/Src/main.o
+ .debug_macro   0x000000000001e541       0x35 ./Core/Src/main.o
+ .debug_macro   0x000000000001e576      0x364 ./Core/Src/main.o
+ .debug_macro   0x000000000001e8da       0x43 ./Core/Src/main.o
+ .debug_macro   0x000000000001e91d       0x16 ./Core/Src/main.o
+ .debug_macro   0x000000000001e933      0x137 ./Core/Src/main.o
+ .debug_macro   0x000000000001ea6a       0x16 ./Core/Src/main.o
+ .debug_macro   0x000000000001ea80       0x20 ./Core/Src/main.o
+ .debug_macro   0x000000000001eaa0      0x3f8 ./Core/Src/serialCommand.o
+ .debug_macro   0x000000000001ee98      0x3f8 ./Core/Src/spi.o
+ .debug_macro   0x000000000001f290      0x3ee ./Core/Src/stm32g4xx_hal_msp.o
+ .debug_macro   0x000000000001f67e      0x3f8 ./Core/Src/stm32g4xx_it.o
+ .debug_macro   0x000000000001fa76      0x24c ./Core/Src/syscalls.o
+ .debug_macro   0x000000000001fcc2       0x4c ./Core/Src/syscalls.o
+ .debug_macro   0x000000000001fd0e       0x94 ./Core/Src/syscalls.o
+ .debug_macro   0x000000000001fda2       0x57 ./Core/Src/syscalls.o
+ .debug_macro   0x000000000001fdf9       0x10 ./Core/Src/syscalls.o
+ .debug_macro   0x000000000001fe09       0x10 ./Core/Src/syscalls.o
+ .debug_macro   0x000000000001fe19       0x10 ./Core/Src/syscalls.o
+ .debug_macro   0x000000000001fe29       0x35 ./Core/Src/syscalls.o
+ .debug_macro   0x000000000001fe5e      0x12c ./Core/Src/syscalls.o
+ .debug_macro   0x000000000001ff8a       0x16 ./Core/Src/syscalls.o
+ .debug_macro   0x000000000001ffa0       0x16 ./Core/Src/syscalls.o
+ .debug_macro   0x000000000001ffb6       0x29 ./Core/Src/syscalls.o
+ .debug_macro   0x000000000001ffdf       0x10 ./Core/Src/syscalls.o
+ .debug_macro   0x000000000001ffef      0x241 ./Core/Src/syscalls.o
+ .debug_macro   0x0000000000020230       0x1c ./Core/Src/syscalls.o
+ .debug_macro   0x000000000002024c       0x10 ./Core/Src/syscalls.o
+ .debug_macro   0x000000000002025c      0x189 ./Core/Src/syscalls.o
+ .debug_macro   0x00000000000203e5       0x16 ./Core/Src/syscalls.o
+ .debug_macro   0x00000000000203fb       0xce ./Core/Src/syscalls.o
+ .debug_macro   0x00000000000204c9       0xff ./Core/Src/sysmem.o
+ .debug_macro   0x00000000000205c8      0x23b ./Core/Src/sysmem.o
+ .debug_macro   0x0000000000020803      0x1cf ./Core/Src/system_stm32g4xx.o
+ .debug_macro   0x00000000000209d2      0x3f8 ./Core/Src/usart.o
+ .debug_macro   0x0000000000020dca      0x21d ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.o
+ .debug_macro   0x0000000000020fe7      0x1cf ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.o
+ .debug_macro   0x00000000000211b6      0x1d6 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.o
+ .debug_macro   0x000000000002138c      0x1f9 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.o
+ .debug_macro   0x0000000000021585      0x211 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.o
+ .debug_macro   0x0000000000021796      0x1f9 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.o
+ .debug_macro   0x000000000002198f      0x1d7 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.o
+ .debug_macro   0x0000000000021b66      0x1fa ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.o
+ .debug_macro   0x0000000000021d60      0x1db ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.o
+ .debug_macro   0x0000000000021f3b       0x9d ./Drivers/ioLibrary_Driver/Ethernet/W5500/w5500.o
+ .debug_macro   0x0000000000021fd8       0xb8 ./Drivers/ioLibrary_Driver/Ethernet/socket.o
+ .debug_macro   0x0000000000022090       0x66 ./Drivers/ioLibrary_Driver/Ethernet/socket.o
+ .debug_macro   0x00000000000220f6       0x94 ./Drivers/ioLibrary_Driver/Ethernet/wizchip_conf.o
+ .debug_macro   0x000000000002218a      0x2a9 ./Drivers/ioLibrary_Driver/Internet/DHCP/dhcp.o
+ .debug_macro   0x0000000000022433      0x331 ./Drivers/ioLibrary_Driver/Internet/DNS/dns.o
+ .debug_macro   0x0000000000022764       0x10 ./Drivers/ioLibrary_Driver/Internet/DNS/dns.o
+ .debug_macro   0x0000000000022774      0x228 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTClient.o
+ .debug_macro   0x000000000002299c       0xa4 ./Drivers/ioLibrary_Driver/Internet/MQTT/mqtt_interface.o
+ .debug_macro   0x0000000000022a40      0x21c ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectClient.o
+ .debug_macro   0x0000000000022c5c      0x222 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTDeserializePublish.o
+ .debug_macro   0x0000000000022e7e      0x222 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTPacket.o
+ .debug_macro   0x00000000000230a0      0x21c ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSerializePublish.o
+ .debug_macro   0x00000000000232bc      0x21c ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeClient.o
+ .debug_macro   0x00000000000234d8      0x359 ./W5500/W5500Interface.o
 
-.debug_line     0x0000000000000000    0x1a373
+.debug_line     0x0000000000000000    0x1a161
  .debug_line    0x0000000000000000      0xb0b ./Core/Src/gpio.o
- .debug_line    0x0000000000000b0b      0xf95 ./Core/Src/main.o
- .debug_line    0x0000000000001aa0      0xaf8 ./Core/Src/serialCommand.o
- .debug_line    0x0000000000002598      0xb68 ./Core/Src/spi.o
- .debug_line    0x0000000000003100      0xaef ./Core/Src/stm32g4xx_hal_msp.o
- .debug_line    0x0000000000003bef      0xbb2 ./Core/Src/stm32g4xx_it.o
- .debug_line    0x00000000000047a1      0x7fe ./Core/Src/syscalls.o
- .debug_line    0x0000000000004f9f      0x4f4 ./Core/Src/sysmem.o
- .debug_line    0x0000000000005493      0x748 ./Core/Src/system_stm32g4xx.o
- .debug_line    0x0000000000005bdb      0xb8e ./Core/Src/usart.o
- .debug_line    0x0000000000006769       0x89 ./Core/Startup/startup_stm32g431kbtx.o
- .debug_line    0x00000000000067f2      0xabf ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.o
- .debug_line    0x00000000000072b1      0xc72 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.o
- .debug_line    0x0000000000007f23      0xb02 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.o
- .debug_line    0x0000000000008a25      0xc76 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.o
- .debug_line    0x000000000000969b      0xed5 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.o
- .debug_line    0x000000000000a570     0x1098 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.o
- .debug_line    0x000000000000b608     0x1f09 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.o
- .debug_line    0x000000000000d511     0x3b15 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.o
- .debug_line    0x0000000000011026      0xd6a ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.o
- .debug_line    0x0000000000011d90      0x70b ./Drivers/ioLibrary_Driver/Ethernet/W5500/w5500.o
- .debug_line    0x000000000001249b      0xd7f ./Drivers/ioLibrary_Driver/Ethernet/socket.o
- .debug_line    0x000000000001321a      0xb0c ./Drivers/ioLibrary_Driver/Ethernet/wizchip_conf.o
- .debug_line    0x0000000000013d26     0x155d ./Drivers/ioLibrary_Driver/Internet/DHCP/dhcp.o
- .debug_line    0x0000000000015283      0xb39 ./Drivers/ioLibrary_Driver/Internet/DNS/dns.o
- .debug_line    0x0000000000015dbc      0xd81 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTClient.o
- .debug_line    0x0000000000016b3d      0x59c ./Drivers/ioLibrary_Driver/Internet/MQTT/mqtt_interface.o
- .debug_line    0x00000000000170d9      0x846 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectClient.o
- .debug_line    0x000000000001791f      0x6fb ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTDeserializePublish.o
- .debug_line    0x000000000001801a      0xa7b ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTPacket.o
- .debug_line    0x0000000000018a95      0x739 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSerializePublish.o
- .debug_line    0x00000000000191ce      0x76a ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeClient.o
- .debug_line    0x0000000000019938      0xa3b ./W5500/W5500Interface.o
+ .debug_line    0x0000000000000b0b      0xd83 ./Core/Src/main.o
+ .debug_line    0x000000000000188e      0xaf8 ./Core/Src/serialCommand.o
+ .debug_line    0x0000000000002386      0xb68 ./Core/Src/spi.o
+ .debug_line    0x0000000000002eee      0xaef ./Core/Src/stm32g4xx_hal_msp.o
+ .debug_line    0x00000000000039dd      0xbb2 ./Core/Src/stm32g4xx_it.o
+ .debug_line    0x000000000000458f      0x7fe ./Core/Src/syscalls.o
+ .debug_line    0x0000000000004d8d      0x4f4 ./Core/Src/sysmem.o
+ .debug_line    0x0000000000005281      0x748 ./Core/Src/system_stm32g4xx.o
+ .debug_line    0x00000000000059c9      0xb8e ./Core/Src/usart.o
+ .debug_line    0x0000000000006557       0x89 ./Core/Startup/startup_stm32g431kbtx.o
+ .debug_line    0x00000000000065e0      0xabf ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.o
+ .debug_line    0x000000000000709f      0xc72 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.o
+ .debug_line    0x0000000000007d11      0xb02 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.o
+ .debug_line    0x0000000000008813      0xc76 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.o
+ .debug_line    0x0000000000009489      0xed5 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.o
+ .debug_line    0x000000000000a35e     0x1098 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.o
+ .debug_line    0x000000000000b3f6     0x1f09 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.o
+ .debug_line    0x000000000000d2ff     0x3b15 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.o
+ .debug_line    0x0000000000010e14      0xd6a ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.o
+ .debug_line    0x0000000000011b7e      0x70b ./Drivers/ioLibrary_Driver/Ethernet/W5500/w5500.o
+ .debug_line    0x0000000000012289      0xd7f ./Drivers/ioLibrary_Driver/Ethernet/socket.o
+ .debug_line    0x0000000000013008      0xb0c ./Drivers/ioLibrary_Driver/Ethernet/wizchip_conf.o
+ .debug_line    0x0000000000013b14     0x155d ./Drivers/ioLibrary_Driver/Internet/DHCP/dhcp.o
+ .debug_line    0x0000000000015071      0xb39 ./Drivers/ioLibrary_Driver/Internet/DNS/dns.o
+ .debug_line    0x0000000000015baa      0xd81 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTClient.o
+ .debug_line    0x000000000001692b      0x59c ./Drivers/ioLibrary_Driver/Internet/MQTT/mqtt_interface.o
+ .debug_line    0x0000000000016ec7      0x846 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectClient.o
+ .debug_line    0x000000000001770d      0x6fb ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTDeserializePublish.o
+ .debug_line    0x0000000000017e08      0xa7b ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTPacket.o
+ .debug_line    0x0000000000018883      0x739 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSerializePublish.o
+ .debug_line    0x0000000000018fbc      0x76a ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeClient.o
+ .debug_line    0x0000000000019726      0xa3b ./W5500/W5500Interface.o
 
-.debug_str      0x0000000000000000    0xc1a12
- .debug_str     0x0000000000000000    0xb7e5a ./Core/Src/gpio.o
+.debug_str      0x0000000000000000    0xc02b1
+ .debug_str     0x0000000000000000    0xb7e70 ./Core/Src/gpio.o
                                       0xb8130 (size before relaxing)
- .debug_str     0x00000000000b7e5a     0x2790 ./Core/Src/main.o
-                                      0xba4f1 (size before relaxing)
- .debug_str     0x00000000000ba5ea      0x4dc ./Core/Src/serialCommand.o
+ .debug_str     0x00000000000b7e70      0xffb ./Core/Src/main.o
+                                      0xb8d55 (size before relaxing)
+ .debug_str     0x00000000000b8e6b      0x4dc ./Core/Src/serialCommand.o
                                       0xb84a9 (size before relaxing)
- .debug_str     0x00000000000baac6      0x1e8 ./Core/Src/spi.o
+ .debug_str     0x00000000000b9347      0x1e8 ./Core/Src/spi.o
                                       0xb8665 (size before relaxing)
- .debug_str     0x00000000000bacae       0x2c ./Core/Src/stm32g4xx_hal_msp.o
+ .debug_str     0x00000000000b952f       0x2c ./Core/Src/stm32g4xx_hal_msp.o
                                       0xb8065 (size before relaxing)
- .debug_str     0x00000000000bacda       0xc9 ./Core/Src/stm32g4xx_it.o
+ .debug_str     0x00000000000b955b       0xc9 ./Core/Src/stm32g4xx_it.o
                                       0xb7f95 (size before relaxing)
- .debug_str     0x00000000000bada3     0x1735 ./Core/Src/syscalls.o
+ .debug_str     0x00000000000b9624     0x1735 ./Core/Src/syscalls.o
                                        0x8a6c (size before relaxing)
- .debug_str     0x00000000000bc4d8       0x6b ./Core/Src/sysmem.o
+ .debug_str     0x00000000000bad59       0x6b ./Core/Src/sysmem.o
                                        0x5da8 (size before relaxing)
- .debug_str     0x00000000000bc543       0xdb ./Core/Src/system_stm32g4xx.o
+ .debug_str     0x00000000000badc4       0xdb ./Core/Src/system_stm32g4xx.o
                                       0xb1382 (size before relaxing)
- .debug_str     0x00000000000bc61e      0x238 ./Core/Src/usart.o
+ .debug_str     0x00000000000bae9f      0x238 ./Core/Src/usart.o
                                       0xb88a8 (size before relaxing)
- .debug_str     0x00000000000bc856       0x36 ./Core/Startup/startup_stm32g431kbtx.o
+ .debug_str     0x00000000000bb0d7       0x36 ./Core/Startup/startup_stm32g431kbtx.o
                                          0x6a (size before relaxing)
- .debug_str     0x00000000000bc88c      0xa16 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.o
+ .debug_str     0x00000000000bb10d      0xa16 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.o
                                       0xb1e9a (size before relaxing)
- .debug_str     0x00000000000bd2a2      0x344 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.o
+ .debug_str     0x00000000000bbb23      0x344 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.o
                                       0xb1b45 (size before relaxing)
- .debug_str     0x00000000000bd5e6      0x123 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.o
+ .debug_str     0x00000000000bbe67      0x123 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.o
                                       0xb150d (size before relaxing)
- .debug_str     0x00000000000bd709      0x4c6 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.o
+ .debug_str     0x00000000000bbf8a      0x4c6 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.o
                                       0xb1870 (size before relaxing)
- .debug_str     0x00000000000bdbcf      0x4d5 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.o
+ .debug_str     0x00000000000bc450      0x4d5 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.o
                                       0xb1a7b (size before relaxing)
- .debug_str     0x00000000000be0a4      0x40b ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.o
+ .debug_str     0x00000000000bc925      0x40b ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.o
                                       0xb1a7c (size before relaxing)
- .debug_str     0x00000000000be4af      0x5b7 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.o
+ .debug_str     0x00000000000bcd30      0x5b7 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.o
                                       0xb1cba (size before relaxing)
- .debug_str     0x00000000000bea66      0x9a9 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.o
+ .debug_str     0x00000000000bd2e7      0x9a9 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.o
                                       0xb2315 (size before relaxing)
- .debug_str     0x00000000000bf40f      0x251 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.o
+ .debug_str     0x00000000000bdc90      0x251 ./Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.o
                                       0xb1af9 (size before relaxing)
- .debug_str     0x00000000000bf660      0x1ac ./Drivers/ioLibrary_Driver/Ethernet/W5500/w5500.o
+ .debug_str     0x00000000000bdee1      0x1ac ./Drivers/ioLibrary_Driver/Ethernet/W5500/w5500.o
                                        0x6951 (size before relaxing)
- .debug_str     0x00000000000bf80c      0x758 ./Drivers/ioLibrary_Driver/Ethernet/socket.o
+ .debug_str     0x00000000000be08d      0x758 ./Drivers/ioLibrary_Driver/Ethernet/socket.o
                                        0x6f90 (size before relaxing)
- .debug_str     0x00000000000bff64      0x58f ./Drivers/ioLibrary_Driver/Ethernet/wizchip_conf.o
+ .debug_str     0x00000000000be7e5      0x58f ./Drivers/ioLibrary_Driver/Ethernet/wizchip_conf.o
                                        0x7207 (size before relaxing)
- .debug_str     0x00000000000c04f3      0x880 ./Drivers/ioLibrary_Driver/Internet/DHCP/dhcp.o
+ .debug_str     0x00000000000bed74      0x880 ./Drivers/ioLibrary_Driver/Internet/DHCP/dhcp.o
                                        0xb5e9 (size before relaxing)
- .debug_str     0x00000000000c0d73      0x2f0 ./Drivers/ioLibrary_Driver/Internet/DNS/dns.o
+ .debug_str     0x00000000000bf5f4      0x306 ./Drivers/ioLibrary_Driver/Internet/DNS/dns.o
                                        0xb10a (size before relaxing)
- .debug_str     0x00000000000c1063      0x44f ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTClient.o
+ .debug_str     0x00000000000bf8fa      0x44f ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTClient.o
                                        0x869d (size before relaxing)
- .debug_str     0x00000000000c14b2       0x8d ./Drivers/ioLibrary_Driver/Internet/MQTT/mqtt_interface.o
+ .debug_str     0x00000000000bfd49       0x8d ./Drivers/ioLibrary_Driver/Internet/MQTT/mqtt_interface.o
                                        0x6cae (size before relaxing)
- .debug_str     0x00000000000c153f      0x150 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectClient.o
+ .debug_str     0x00000000000bfdd6      0x150 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTConnectClient.o
                                        0x7951 (size before relaxing)
- .debug_str     0x00000000000c168f       0x87 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTDeserializePublish.o
+ .debug_str     0x00000000000bff26       0x87 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTDeserializePublish.o
                                        0x778a (size before relaxing)
- .debug_str     0x00000000000c1716      0x118 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTPacket.o
+ .debug_str     0x00000000000bffad      0x120 ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTPacket.o
                                        0x7851 (size before relaxing)
- .debug_str     0x00000000000c182e       0xac ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSerializePublish.o
+ .debug_str     0x00000000000c00cd       0xac ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSerializePublish.o
                                        0x782e (size before relaxing)
- .debug_str     0x00000000000c18da       0x9d ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeClient.o
+ .debug_str     0x00000000000c0179       0x9d ./Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSubscribeClient.o
                                        0x7829 (size before relaxing)
- .debug_str     0x00000000000c1977       0x9b ./W5500/W5500Interface.o
+ .debug_str     0x00000000000c0216       0x9b ./W5500/W5500Interface.o
                                       0xb8467 (size before relaxing)
 
 .comment        0x0000000000000000       0x50
