@@ -47,16 +47,20 @@
 									<listOptionValue builtIn="false" value="../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy"/>
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Device/ST/STM32G4xx/Include"/>
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Include"/>
-									<listOptionValue builtIn="false" value="../Drivers/ioLibrary_Driver/Internet/MQTT"/>
-									<listOptionValue builtIn="false" value="../Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src"/>
-									<listOptionValue builtIn="false" value="../Drivers/ioLibrary_Driver/Ethernet"/>
-									<listOptionValue builtIn="false" value="../Drivers/ioLibrary_Driver/Ethernet/W5500"/>
-									<listOptionValue builtIn="false" value="../Drivers/ioLibrary_Driver/Internet/DNS"/>
-									<listOptionValue builtIn="false" value="../Drivers/ioLibrary_Driver/Internet/DHCP"/>
+									<listOptionValue builtIn="false" value="&quot;../Drivers\ioLibrary_Driver\Internet\MQTT&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../Drivers\ioLibrary_Driver\Internet\MQTT\MQTTPacket\src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../Drivers\ioLibrary_Driver\Ethernet&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../Drivers\ioLibrary_Driver\Ethernet\W5500&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../Drivers\ioLibrary_Driver\Internet\DNS&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../Drivers\ioLibrary_Driver\Internet\DHCP&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\Users\josep\Projects\STM32w5500\STM32w5500\W5500&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\Users\josep\Projects\STM32w5500\STM32w5500\Drivers\TLS\mbedtls\include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\Users\josep\Projects\STM32w5500\STM32w5500\Drivers\TLS\mbedtls&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\Users\josep\Projects\STM32w5500\STM32w5500\Drivers\TLS&quot;"/>
+									<listOptionValue builtIn="false" value="../W5500"/>
+									<listOptionValue builtIn="false" value="&quot;../Drivers\TLS\mbedtls\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../Drivers\TLS\mbedtls&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../Drivers\TLS&quot;"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.860328387" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
 							</tool>
@@ -74,13 +78,13 @@
 									<listOptionValue builtIn="false" value="../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy"/>
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Device/ST/STM32G4xx/Include"/>
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Include"/>
-									<listOptionValue builtIn="false" value="&quot;C:\Users\josep\Projects\STM32w5500\STM32w5500\W5500&quot;"/>
 									<listOptionValue builtIn="false" value="../Drivers/ioLibrary_Driver/Internet/MQTT"/>
 									<listOptionValue builtIn="false" value="../Drivers/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src"/>
 									<listOptionValue builtIn="false" value="../Drivers/ioLibrary_Driver/Ethernet"/>
 									<listOptionValue builtIn="false" value="../Drivers/ioLibrary_Driver/Ethernet/W5500"/>
 									<listOptionValue builtIn="false" value="../Drivers/ioLibrary_Driver/Internet/DNS"/>
 									<listOptionValue builtIn="false" value="../Drivers/ioLibrary_Driver/Internet/DHCP"/>
+									<listOptionValue builtIn="false" value="../W5500"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp.1061952254" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp"/>
 							</tool>
@@ -164,6 +168,16 @@
 									<listOptionValue builtIn="false" value="../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy"/>
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Device/ST/STM32G4xx/Include"/>
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Include"/>
+									<listOptionValue builtIn="false" value="&quot;../Drivers\ioLibrary_Driver\Internet\MQTT&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../Drivers\ioLibrary_Driver\Internet\MQTT\MQTTPacket\src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../Drivers\ioLibrary_Driver\Ethernet&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../Drivers\ioLibrary_Driver\Ethernet\W5500&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../Drivers\ioLibrary_Driver\Internet\DNS&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../Drivers\ioLibrary_Driver\Internet\DHCP&quot;"/>
+									<listOptionValue builtIn="false" value="../W5500"/>
+									<listOptionValue builtIn="false" value="&quot;../Drivers\TLS\mbedtls\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../Drivers\TLS\mbedtls&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../Drivers\TLS&quot;"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1843645881" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
 							</tool>
@@ -180,6 +194,12 @@
 									<listOptionValue builtIn="false" value="../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy"/>
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Device/ST/STM32G4xx/Include"/>
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Include"/>
+									<listOptionValue builtIn="false" value="&quot;../Drivers\ioLibrary_Driver\Internet\MQTT\MQTTPacket\src&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../Drivers\ioLibrary_Driver\Internet\MQTT&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../Drivers\ioLibrary_Driver\Internet\DNS&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../Drivers\ioLibrary_Driver\Internet\DHCP&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../Drivers\ioLibrary_Driver\Ethernet&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../Drivers\ioLibrary_Driver\Ethernet\W5500&quot;"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp.426378172" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.cpp.compiler.input.cpp"/>
 							</tool>

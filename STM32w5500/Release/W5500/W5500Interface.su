@@ -1,0 +1,8 @@
+../W5500/W5500Interface.c:116:8:W5500Select	0	static
+../W5500/W5500Interface.c:121:8:W5500DeSelect	0	static
+../W5500/W5500Interface.c:90:6:W5500WriteByte	16	static
+../W5500/W5500Interface.c:95:9:W5500ReadByte	16	static
+../W5500/W5500Interface.c:35:6:W5500Initialze	40	static
+../W5500/W5500Interface.c:65:6:W5500HardwareReset	8	static
+../W5500/W5500Interface.c:80:8:resetAssert	0	static
+../W5500/W5500Interface.c:85:8:resetDeassert	0	static

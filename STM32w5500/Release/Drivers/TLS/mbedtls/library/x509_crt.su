@@ -1,0 +1,16 @@
+../Drivers/TLS/mbedtls/library/x509_crt.c:79:13:mbedtls_zeroize	0	static
+../Drivers/TLS/mbedtls/library/x509_crt.c:1731:12:x509_memcasecmp	16	static
+../Drivers/TLS/mbedtls/library/x509_crt.c:1825:12:x509_name_cmp	24	static
+../Drivers/TLS/mbedtls/library/x509_crt.c:1864:12:x509_crt_check_parent	24	static
+../Drivers/TLS/mbedtls/library/x509_crt.c:178:12:x509_profile_check_key	8	static
+../Drivers/TLS/mbedtls/library/x509_crt.c:1760:12:x509_check_wildcard	16	static
+../Drivers/TLS/mbedtls/library/x509_crt.c:1903:12:x509_crt_verify_top.constprop	112	static
+../Drivers/TLS/mbedtls/library/x509_crt.c:2046:12:x509_crt_verify_child.isra	120	static
+../Drivers/TLS/mbedtls/library/x509_crt.c:1365:5:mbedtls_x509_crt_info	88	static
+../Drivers/TLS/mbedtls/library/x509_crt.c:1526:5:mbedtls_x509_crt_verify_info	40	static
+../Drivers/TLS/mbedtls/library/x509_crt.c:2196:5:mbedtls_x509_crt_verify_with_profile	72	static
+../Drivers/TLS/mbedtls/library/x509_crt.c:2181:5:mbedtls_x509_crt_verify	24	static
+../Drivers/TLS/mbedtls/library/x509_crt.c:2341:6:mbedtls_x509_crt_init	0	static
+../Drivers/TLS/mbedtls/library/x509_crt.c:2349:6:mbedtls_x509_crt_free	24	static
+../Drivers/TLS/mbedtls/library/x509_crt.c:925:5:mbedtls_x509_crt_parse_der	144	static
+../Drivers/TLS/mbedtls/library/x509_crt.c:976:5:mbedtls_x509_crt_parse	72	static

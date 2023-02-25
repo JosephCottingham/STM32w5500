@@ -1,0 +1,2 @@
+../Drivers/TLS/mbedtls/include/mbedtls/ssl_internal.h:546:35:mbedtls_ssl_own_key	0	static
+../Drivers/TLS/mbedtls/library/ssl_cli.c:3329:5:mbedtls_ssl_handshake_client_step	136	static
