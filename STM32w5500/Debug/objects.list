@@ -1,4 +1,3 @@
-"./Core/Src/W5500HardwareDriver.o"
 "./Core/Src/gpio.o"
 "./Core/Src/main.o"
 "./Core/Src/serialCommand.o"

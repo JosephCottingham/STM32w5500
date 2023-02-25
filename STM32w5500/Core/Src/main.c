@@ -55,7 +55,7 @@ wiz_NetInfo gWIZNETINFO = { .mac = {0x00,0x08,0xdc,0x78,0x91,0x71},
 							.sn = {255, 255, 255, 0},
 							.gw = {192, 168, 1, 1},
 							.dns = {8, 8, 8, 8},
-							.dhcp = NETINFO_STATIC};
+							.dhcp = NETINFO_DHCP};
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
