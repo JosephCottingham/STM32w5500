@@ -1,0 +1,16 @@
+C:/Users/josep/Projects/STM32w5500/STM32w5500/Drivers/TLS/mbedtls/include/mbedtls/ssl_ciphersuites.h:418:19:mbedtls_ssl_ciphersuite_cert_req_allowed	16	static
+C:/Users/josep/Projects/STM32w5500/STM32w5500/Drivers/TLS/mbedtls/include/mbedtls/ssl_internal.h:546:35:mbedtls_ssl_own_key	24	static
+C:/Users/josep/Projects/STM32w5500/STM32w5500/Drivers/TLS/mbedtls/include/mbedtls/ssl_internal.h:558:33:mbedtls_ssl_own_cert	24	static
+C:/Users/josep/Projects/STM32w5500/STM32w5500/Drivers/TLS/mbedtls/include/mbedtls/ssl_internal.h:601:22:mbedtls_ssl_hs_hdr_len	16	static
+../Drivers/TLS/mbedtls/library/ssl_cli.c:172:13:ssl_write_signature_algorithms_ext	64	static
+../Drivers/TLS/mbedtls/library/ssl_cli.c:680:12:ssl_generate_random	24	static
+../Drivers/TLS/mbedtls/library/ssl_cli.c:720:12:ssl_write_client_hello	80	static
+../Drivers/TLS/mbedtls/library/ssl_cli.c:1070:12:ssl_parse_renegotiation_info	32	static
+../Drivers/TLS/mbedtls/library/ssl_cli.c:1442:12:ssl_parse_server_hello	104	static
+../Drivers/TLS/mbedtls/library/ssl_cli.c:2094:12:ssl_write_encrypted_pms	64	static
+../Drivers/TLS/mbedtls/library/ssl_cli.c:2271:12:ssl_parse_server_key_exchange	56	static
+../Drivers/TLS/mbedtls/library/ssl_cli.c:2604:12:ssl_parse_certificate_request	80	static
+../Drivers/TLS/mbedtls/library/ssl_cli.c:2736:12:ssl_parse_server_hello_done	40	static
+../Drivers/TLS/mbedtls/library/ssl_cli.c:2775:12:ssl_write_client_key_exchange	40	static
+../Drivers/TLS/mbedtls/library/ssl_cli.c:3064:12:ssl_write_certificate_verify	120	static
+../Drivers/TLS/mbedtls/library/ssl_cli.c:3329:5:mbedtls_ssl_handshake_client_step	32	static

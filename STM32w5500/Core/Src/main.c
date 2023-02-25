@@ -90,7 +90,7 @@ struct opts_struct
 	0
 };
 unsigned char TargetName[] = "driver.cloudmqtt.com";
-unsigned char targetIP[4] = {5,196,95,208};
+unsigned char targetIP[4] = {0,0,0,0};
 unsigned int targetPort = 18602;
 void messageArrived(MessageData* md)
 {
@@ -135,6 +135,8 @@ int main(void)
 	int i;
 	int rc = 0;
 	unsigned char buf[100];
+	int len, server_fd = 0;
+	wiz_tls_context tlsContext;
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -187,15 +189,23 @@ int main(void)
 	MQTTClient c;
 	n.my_socket = 2;
 
+	// Get IP address of MQTT Broker via DNS (Google DNS)
 	DNS_init(1,ethBuf1);
 	while(DNS_run(gWIZNETINFO.dns,TargetName,targetIP) == 0){}
+
+	/*  initialize ssl context  */
+	ret = wiz_tls_init(&tlsContext,&server_fd);
+	printf("init [%d] \r\n", ret);
 
 
 	printf("START MQTT\r\n");
 
 	NewNetwork(&n, 0);
-	ConnectNetwork(&n, targetIP, targetPort);
-	MQTTClientInit(&c,&n,1000,buf,100,ethBuf2,2048);
+//	ConnectNetwork(&n, targetIP, targetPort);
+	// TLS Connect / Handshake
+	wiz_tls_connect(&tlsContext, targetPort, targetIP);
+	// Setup MQTT Client
+	MQTTClientInit(&c,&n,&tlsContext,1000,buf,100,ethBuf2,2048);
 
 	print_network_information();
 	printf("Target IP  Address : %d.%d.%d.%d:%d\n\r",targetIP[0],targetIP[1],targetIP[2],targetIP[3],targetPort);

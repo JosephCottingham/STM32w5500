@@ -1,0 +1,14 @@
+../Drivers/TLS/mbedtls/library/sha256.c:54:13:mbedtls_zeroize	24	static
+../Drivers/TLS/mbedtls/library/sha256.c:81:6:mbedtls_sha256_init	16	static
+../Drivers/TLS/mbedtls/library/sha256.c:86:6:mbedtls_sha256_free	16	static
+../Drivers/TLS/mbedtls/library/sha256.c:94:6:mbedtls_sha256_clone	16	static
+../Drivers/TLS/mbedtls/library/sha256.c:103:5:mbedtls_sha256_starts_ret	16	static
+../Drivers/TLS/mbedtls/library/sha256.c:139:6:mbedtls_sha256_starts	16	static
+../Drivers/TLS/mbedtls/library/sha256.c:192:5:mbedtls_internal_sha256_process	320	static
+../Drivers/TLS/mbedtls/library/sha256.c:251:6:mbedtls_sha256_process	16	static
+../Drivers/TLS/mbedtls/library/sha256.c:262:5:mbedtls_sha256_update_ret	40	static
+../Drivers/TLS/mbedtls/library/sha256.c:310:6:mbedtls_sha256_update	24	static
+../Drivers/TLS/mbedtls/library/sha256.c:329:5:mbedtls_sha256_finish_ret	48	static
+../Drivers/TLS/mbedtls/library/sha256.c:368:6:mbedtls_sha256_finish	16	static
+../Drivers/TLS/mbedtls/library/sha256.c:380:5:mbedtls_sha256_ret	136	static
+../Drivers/TLS/mbedtls/library/sha256.c:406:6:mbedtls_sha256	24	static

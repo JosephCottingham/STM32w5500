@@ -125,11 +125,11 @@ void NewNetwork(Network* n, int sn) {
  *         len : buffer length.
  * @retval received data length or SOCKERR code
  */
-int w5x00_read(Network* n, unsigned char* buffer, int len, long time)
+int w5x00_read(Network* n, wiz_tls_context* tlsContext, unsigned char* buffer, int len, long time)
 {
 
-	if((getSn_SR(n->my_socket) == SOCK_ESTABLISHED) && (getSn_RX_RSR(n->my_socket)>0))
-		return recv(n->my_socket, buffer, len);
+	if(getSn_SR(n->my_socket) == SOCK_ESTABLISHED)
+		return wiz_tls_read(&tlsContext, buffer, len);
 
 	return SOCK_ERROR;
 }

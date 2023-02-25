@@ -1,0 +1,4 @@
+../Drivers/TLS/mbedtls/library/pem.c:49:13:mbedtls_zeroize	24	static
+../Drivers/TLS/mbedtls/library/pem.c:53:6:mbedtls_pem_init	16	static
+../Drivers/TLS/mbedtls/library/pem.c:234:5:mbedtls_pem_read_buffer	64	static
+../Drivers/TLS/mbedtls/library/pem.c:428:6:mbedtls_pem_free	16	static

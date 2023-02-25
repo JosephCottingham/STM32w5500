@@ -49,11 +49,12 @@ static int sendPacket(MQTTClient* c, int length, Timer* timer)
 }
 
 
-void MQTTClientInit(MQTTClient* c, Network* network, unsigned int command_timeout_ms,
+void MQTTClientInit(MQTTClient* c, Network* network, wiz_tls_context* tlsContext, unsigned int command_timeout_ms,
 		unsigned char* sendbuf, size_t sendbuf_size, unsigned char* readbuf, size_t readbuf_size)
 {
     int i;
     c->ipstack = network;
+    c->tlsContext = tlsContext;
 
     for (i = 0; i < MAX_MESSAGE_HANDLERS; ++i)
         c->messageHandlers[i].topicFilter = 0;
@@ -90,7 +91,7 @@ static int decodePacket(MQTTClient* c, int* value, int timeout)
             rc = MQTTPACKET_READ_ERROR; /* bad data */
             goto exit;
         }
-        rc = c->ipstack->mqttread(c->ipstack, &i, 1, timeout);
+        rc = c->ipstack->mqttread(c->ipstack, c->tlsContext, &i, 1, timeout);
         if (rc != 1)
             goto exit;
         *value += (i & 127) * multiplier;
@@ -109,7 +110,7 @@ static int readPacket(MQTTClient* c, Timer* timer)
     int rem_len = 0;
 
     /* 1. read the header byte.  This has the packet type in it */
-    if (c->ipstack->mqttread(c->ipstack, c->readbuf, 1, TimerLeftMS(timer)) != 1)
+    if (c->ipstack->mqttread(c->ipstack, c->tlsContext, c->readbuf, 1, TimerLeftMS(timer)) != 1)
         goto exit;
 
     len = 1;
@@ -118,7 +119,7 @@ static int readPacket(MQTTClient* c, Timer* timer)
     len += MQTTPacket_encode(c->readbuf + 1, rem_len); /* put the original remaining length back into the buffer */
 
     /* 3. read the rest of the buffer using a callback to supply the rest of the data */
-    if (rem_len > 0 && (c->ipstack->mqttread(c->ipstack, c->readbuf + len, rem_len, TimerLeftMS(timer)) != rem_len))
+    if (rem_len > 0 && (c->ipstack->mqttread(c->ipstack, c->tlsContext, c->readbuf + len, rem_len, TimerLeftMS(timer)) != rem_len))
         goto exit;
 
     header.byte = c->readbuf[0];

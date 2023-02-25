@@ -213,6 +213,7 @@ int main(void)
 #define __MQTT_INTERFACE_H_
 
 #include <stdint.h>
+#include "SSLInterface.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -241,7 +242,7 @@ typedef struct Network Network;
 struct Network
 {
 	int my_socket;
-	int (*mqttread) (Network*, unsigned char*, int, long);
+	int (*mqttread) (Network*, wiz_tls_context*, unsigned char*, int, long);
 	int (*mqttwrite) (Network*, unsigned char*, int, long);
 	void (*disconnect) (Network*);
 };
@@ -258,7 +259,7 @@ int TimerLeftMS(Timer*);
 /*
  * @brief Network interface porting
  */
-int w5x00_read(Network*, unsigned char*, int, long);
+int w5x00_read(Network*, wiz_tls_context*, unsigned char*, int, long);
 int w5x00_write(Network*, unsigned char*, int, long);
 void w5x00_disconnect(Network*);
 void NewNetwork(Network* n, int sn);

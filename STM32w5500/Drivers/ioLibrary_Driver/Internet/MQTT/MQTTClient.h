@@ -36,6 +36,7 @@
 #include "./MQTTPacket/src/MQTTPacket.h"
 #include "stdio.h"
 #include "mqtt_interface.h"
+#include "SSLInterface.h"
 
 #define MAX_PACKET_ID 65535 /* according to the MQTT specification - do not change! */
 
@@ -104,6 +105,7 @@ typedef struct MQTTClient
     void (*defaultMessageHandler) (MessageData*);
 
     Network* ipstack;
+    wiz_tls_context* tlsContext;
     Timer ping_timer;
 #if defined(MQTT_TASK)
 	Mutex mutex;
@@ -121,7 +123,7 @@ typedef struct MQTTClient
  * @param command_timeout_ms
  * @param
  */
-DLLExport void MQTTClientInit(MQTTClient* client, Network* network, unsigned int command_timeout_ms,
+DLLExport void MQTTClientInit(MQTTClient* client, Network* network, wiz_tls_context* tlsContext, unsigned int command_timeout_ms,
 		unsigned char* sendbuf, size_t sendbuf_size, unsigned char* readbuf, size_t readbuf_size);
 
 /** MQTT Connect - send an MQTT connect packet down the network and wait for a Connack

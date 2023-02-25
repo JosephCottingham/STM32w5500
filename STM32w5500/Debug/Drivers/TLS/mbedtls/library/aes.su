@@ -1,0 +1,12 @@
+../Drivers/TLS/mbedtls/library/aes.c:58:13:mbedtls_zeroize	24	static
+../Drivers/TLS/mbedtls/library/aes.c:389:13:aes_gen_tables	2072	static
+../Drivers/TLS/mbedtls/library/aes.c:467:6:mbedtls_aes_init	16	static
+../Drivers/TLS/mbedtls/library/aes.c:472:6:mbedtls_aes_free	16	static
+../Drivers/TLS/mbedtls/library/aes.c:484:5:mbedtls_aes_setkey_enc	32	static
+../Drivers/TLS/mbedtls/library/aes.c:598:5:mbedtls_aes_setkey_dec	328	static
+../Drivers/TLS/mbedtls/library/aes.c:713:5:mbedtls_internal_aes_encrypt	64	static
+../Drivers/TLS/mbedtls/library/aes.c:769:6:mbedtls_aes_encrypt	24	static
+../Drivers/TLS/mbedtls/library/aes.c:781:5:mbedtls_internal_aes_decrypt	64	static
+../Drivers/TLS/mbedtls/library/aes.c:837:6:mbedtls_aes_decrypt	24	static
+../Drivers/TLS/mbedtls/library/aes.c:848:5:mbedtls_aes_crypt_ecb	24	static
+../Drivers/TLS/mbedtls/library/aes.c:880:5:mbedtls_aes_crypt_cbc	56	static

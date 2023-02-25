@@ -1,0 +1,2 @@
+../Drivers/TLS/SSL_Random.c:11:6:RandomSeeding	16	static
+../Drivers/TLS/SSL_Random.c:16:5:SSLRandomCB	32	static

@@ -1,0 +1,10 @@
+../Drivers/TLS/mbedtls/library/pk_wrap.c:63:12:rsa_can_do	16	static
+../Drivers/TLS/mbedtls/library/pk_wrap.c:69:15:rsa_get_bitlen	24	static
+../Drivers/TLS/mbedtls/library/pk_wrap.c:75:12:rsa_verify_wrap	56	static
+../Drivers/TLS/mbedtls/library/pk_wrap.c:102:12:rsa_sign_wrap	48	static
+../Drivers/TLS/mbedtls/library/pk_wrap.c:120:12:rsa_decrypt_wrap	48	static
+../Drivers/TLS/mbedtls/library/pk_wrap.c:134:12:rsa_encrypt_wrap	48	static
+../Drivers/TLS/mbedtls/library/pk_wrap.c:149:12:rsa_check_pair_wrap	16	static
+../Drivers/TLS/mbedtls/library/pk_wrap.c:155:14:rsa_alloc_wrap	16	static
+../Drivers/TLS/mbedtls/library/pk_wrap.c:165:13:rsa_free_wrap	16	static
+../Drivers/TLS/mbedtls/library/pk_wrap.c:171:13:rsa_debug	16	static
